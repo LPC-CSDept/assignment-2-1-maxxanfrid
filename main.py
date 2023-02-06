@@ -2,6 +2,16 @@ def main():
     ##################################################
     # Comlete your code here
     ##################################################
+    num_males = int(input('Enter your number'))
+    num_females = int(input('Enter your number'))
+    total = num_males + num_females 
+    perc_males = (float(num_males)/total)*100
+    perc_females = (float(num_females)/total)*100
+    print(total)
+    print(num_males)
+    print(num_females)
+    print(perc_males)
+    print(perc_females)
     pass
 
 
