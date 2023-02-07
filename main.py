@@ -8,10 +8,8 @@ def main():
     perc_males = float(num_males)/total
     perc_females = float(num_females)/total
     print(total)
-    print(num_males)
-    print(num_females)
-    print(perc_males)
-    print(perc_females)
+    print(num_males), print(num_females)
+    print(perc_males); print(perc_females)
     pass
 
 
